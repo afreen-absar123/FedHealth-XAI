@@ -1,0 +1,94 @@
+# Query: FedHealth-XAI
+# ContextLines: 1
+
+20 results - 12 files
+
+app.py:
+  4120      print(
+  4121:         "FedHealth-XAI INITIALIZATION"
+  4122      )
+
+results\metrics.csv:
+  4  FL + Differential Privacy,0.8360655737704918,0.8,0.8571428571428571,0.8275862068965517,0.9372294372294373
+  5: Proposed FedHealth-XAI,0.8688524590163934,0.8333333333333334,0.8928571428571429,0.8620689655172413,0.9512987012987013
+
+results\model_comparison.csv:
+  4  DP-FedAvg,0.5714285714285714,1.0,0.1951219512195122,0.32653061224489793,0.9078590785907859
+  5: FedHealth-XAI,0.4675324675324675,0.0,0.0,0.0,0.7574525745257453
+
+src\evaluation.py:
+  177  # ==========================================
+  178: # 4. Proposed FedHealth-XAI
+  179  # ==========================================
+
+  182          "models/proposed_adaptive_model.pth",
+  183:         "Proposed FedHealth-XAI"
+  184      )
+
+src\privacy.py:
+  4  # ============================================================
+  5: # FedHealth-XAI
+  6  # DIFFERENTIAL PRIVACY FOR FEDERATED MODEL PARAMETERS
+
+src\proposed_adaptive_aggregator.py:
+  4  # ============================================================
+  5: # FedHealth-XAI
+  6  # PROPOSED ADAPTIVE QUALITY-BASED AGGREGATION
+
+src\proposed_evaluation.py:
+  155  
+  156:     "FedHealth-XAI": (
+  157          "models/proposed_adaptive_model.pth"
+
+src\proposed_local_training.py:
+   9  # ============================================================
+  10: # FedHealth-XAI
+  11  # PROPOSED LOCAL MODEL TRAINING
+
+src\proposed_training.py:
+   17  # ============================================================
+   18: # FedHealth-XAI
+   19  # PROPOSED ADAPTIVE FEDERATED TRAINING
+
+   62  print("=" * 70)
+   63: print("FedHealth-XAI PROPOSED ADAPTIVE FEDERATED TRAINING")
+   64  print("=" * 70)
+
+  608  print(
+  609:     "PROPOSED FedHealth-XAI TRAINING COMPLETED SUCCESSFULLY"
+  610  )
+
+templates\dashboard_backup.html:
+    6            content="width=device-width, initial-scale=1.0">
+    7:     <title>FedHealth-XAI</title>
+    8      <style>
+
+  252  <div class="navbar">
+  253:     <h1>FedHealth-XAI</h1>
+  254      <span>
+
+  267      <p>
+  268:         FedHealth-XAI is an adaptive federated
+  269          learning system for privacy-preserving
+
+  685  <div class="footer">
+  686:     FedHealth-XAI |
+  687      Adaptive Personalized
+
+templates\dashboard.html:
+  1002          <h2>
+  1003:             Welcome to FedHealth-XAI
+  1004          </h2>
+
+templates\login.html:
+    6            content="width=device-width, initial-scale=1.0">
+    7:     <title>FedHealth-XAI | Login</title>
+    8      <style>
+
+  263              <p class="login-subtitle">
+  264:                 Sign in to access the FedHealth-XAI
+  265                  medical intelligence dashboard.
+
+  316              <div class="login-footer">
+  317:                 FedHealth-XAI |
+  318                  Privacy-Preserving Medical Intelligence
